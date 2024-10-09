@@ -1,0 +1,8 @@
+{% block page_content %}
+
+{% set color = frappe.form_dict.color if frappe.form_dict.color else 'black' %}
+<div style="width: 600px; height: 250px; background-color:{{ color }};"> 
+    
+</div>
+
+{% endblock %}
