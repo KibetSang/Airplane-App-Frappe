@@ -22,9 +22,9 @@
   "destination_airport_code",
   "section_break_apxg",
   "date_of_departure",
-  "duration",
   "column_break_szer",
-  "time_of_departure"
+  "time_of_departure",
+  "duration"
  ],
  "fields": [
   {
@@ -145,7 +145,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-10-09 18:14:26.399153",
+ "modified": "2024-10-09 19:58:06.728520",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airplane Flight",
