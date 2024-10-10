@@ -7,9 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "code",
-  "country",
+  "city",
   "column_break_iofb",
-  "city"
+  "country"
  ],
  "fields": [
   {
@@ -38,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-08 12:38:51.963532",
+ "modified": "2024-10-10 15:35:35.174163",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airport",
