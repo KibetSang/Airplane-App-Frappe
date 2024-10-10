@@ -12,8 +12,8 @@
   "amended_from",
   "column_break_perr",
   "status",
-  "route",
   "is_published",
+  "route",
   "section_break_ykmm",
   "source_airport",
   "source_airport_code",
@@ -145,7 +145,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-10-09 19:58:06.728520",
+ "modified": "2024-10-10 11:48:22.201316",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airplane Flight",
