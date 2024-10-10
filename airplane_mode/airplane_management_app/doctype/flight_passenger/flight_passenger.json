@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "autoname": "autoincrement",
  "creation": "2024-10-08 12:39:21.557796",
  "doctype": "DocType",
@@ -45,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-09 18:46:56.550220",
+ "modified": "2024-10-09 20:11:18.932884",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Flight Passenger",
