@@ -9,7 +9,8 @@
   "founding_year",
   "headquarters",
   "column_break_virg",
-  "customer_care_number"
+  "customer_care_number",
+  "website"
  ],
  "fields": [
   {
@@ -34,6 +35,13 @@
    "fieldtype": "Data",
    "label": "Customer Care Number ",
    "reqd": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -43,7 +51,7 @@
    "link_fieldname": "name"
   }
  ],
- "modified": "2024-10-08 15:58:04.657231",
+ "modified": "2024-10-11 13:45:54.379023",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airline",
