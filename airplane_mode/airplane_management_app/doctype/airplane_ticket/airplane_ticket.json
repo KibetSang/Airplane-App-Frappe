@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "flight_details_section",
   "passenger",
   "status",
   "column_break_dtrn",
@@ -67,6 +68,7 @@
    "reqd": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_fevm",
    "fieldtype": "Section Break",
    "label": "Airport Details"
@@ -76,8 +78,10 @@
    "fieldtype": "Column Break"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_cneb",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Departure Details"
   },
   {
    "fetch_from": "flight.date_of_departure",
@@ -114,8 +118,10 @@
    "reqd": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_zjpc",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Addons Details"
   },
   {
    "fieldname": "add_ons",
@@ -124,8 +130,10 @@
    "options": "Airplane Ticket Add-on Item"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_yaaj",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Flight Amount"
   },
   {
    "fieldname": "total_amount",
@@ -157,13 +165,18 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "flight_details_section",
+   "fieldtype": "Section Break",
+   "label": "Flight Details"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-09 10:31:09.801901",
+ "modified": "2024-10-12 12:31:38.885622",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airplane Ticket",

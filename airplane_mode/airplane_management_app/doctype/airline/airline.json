@@ -23,6 +23,7 @@
   {
    "fieldname": "headquarters",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Headquarters",
    "reqd": 1
   },
@@ -33,6 +34,7 @@
   {
    "fieldname": "customer_care_number",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Customer Care Number ",
    "reqd": 1
   },
@@ -51,7 +53,7 @@
    "link_fieldname": "name"
   }
  ],
- "modified": "2024-10-11 13:45:54.379023",
+ "modified": "2024-10-12 12:29:54.487839",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airline",

@@ -11,9 +11,9 @@
  "event": "New",
  "idx": 0,
  "is_standard": 1,
- "message": "Flight Departure Reminder\n\nFlight Number: {{doc.name}}\nDeparture Time: {{time_of_departure}}\nDeparture Date: {{date_of_departure}}\nDestination: {{destination_airport}}\n\nDear Passenger,\n\nThis is a reminder that your flight {{doc.name}} to {{destination_airport}} is scheduled to depart at {{time_of_departure}} on [Date] from {{date_of_departure}}. \nPlease ensure that you arrive at the airport at least 2 hours before your departure time to allow for check-in and security procedures.\n\nWe wish you a pleasant and safe journey!\nSafe travels,\n",
+ "message": "<p>Flight Departure Reminder</p>\n\n<p>Flight Number: {{doc.name}}\nDeparture Time: {{time_of_departure}}\nDeparture Date: {{date_of_departure}}\nDestination: {{destination_airport}}</p>\n\n<p>Dear Passenger,</p>\n\n<p>This is a reminder that your flight {{doc.name}} to {{destination_airport}} is scheduled to depart at {{time_of_departure}} on [Date] from {{date_of_departure}}. \nPlease ensure that you arrive at the airport at least 2 hours before your departure time to allow for check-in and security procedures.</p>\n\n<p>We wish you a pleasant and safe journey!\nSafe travels,</p>\n",
  "message_type": "Markdown",
- "modified": "2024-10-11 08:07:05.934318",
+ "modified": "2024-10-11 15:44:14.095564",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Notification Flights",
@@ -26,7 +26,7 @@
  ],
  "send_system_notification": 1,
  "send_to_all_assignees": 0,
- "sender": "KIBET GROUP",
- "sender_email": "info@kibetgroup.co.ke",
+ "sender": "Frappe Test Email",
+ "sender_email": "josphatkobel@gmail.com",
  "subject": "{{doc.name}} Departs in 24 hours!"
 }
