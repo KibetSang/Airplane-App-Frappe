@@ -40,11 +40,10 @@ class AirplaneTicket(Document):
 		random_int = random.randint(1,99)
 		random_char = random.choice('ABCDE')
 		self.seat = f"{random_int}{random_char}"
-
-		# flight = self.flight
-		# airplane = frappe.get_doc("Flights", flight).airplane
-		# capacity = frappe.get_doc("Airplane", airplane).capacity
-		# total_tickets = frappe.db.count('Airplane Ticket', filters={'flight': flight})
+		flight = self.flight
+		airplane = frappe.get_doc("Airplane Flight", flight).airplane
+		capacity = frappe.get_doc("Airplane", airplane).capacity
+		total_tickets = frappe.db.count('Airplane Ticket', filters={'flight': flight})
 		
-		# if total_tickets > capacity:
-		# 	frappe.throw(f"The number of tickets for {airplane} exceeds the airplane's capacity: {capacity}.")
+		if total_tickets > capacity:
+			frappe.throw(f"The number of tickets for {airplane} exceeds the airplane's capacity: {capacity}.")

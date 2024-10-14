@@ -68,7 +68,6 @@
    "reqd": 1
   },
   {
-   "collapsible": 1,
    "fieldname": "section_break_fevm",
    "fieldtype": "Section Break",
    "label": "Airport Details"
@@ -78,7 +77,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "collapsible": 1,
    "fieldname": "section_break_cneb",
    "fieldtype": "Section Break",
    "label": "Departure Details"
@@ -118,7 +116,6 @@
    "reqd": 1
   },
   {
-   "collapsible": 1,
    "fieldname": "section_break_zjpc",
    "fieldtype": "Section Break",
    "label": "Addons Details"
@@ -130,7 +127,6 @@
    "options": "Airplane Ticket Add-on Item"
   },
   {
-   "collapsible": 1,
    "fieldname": "section_break_yaaj",
    "fieldtype": "Section Break",
    "label": "Flight Amount"
@@ -176,7 +172,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-12 12:31:38.885622",
+ "modified": "2024-10-14 11:00:10.439328",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airplane Ticket",
