@@ -1,0 +1,41 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "airline",
+   "fieldtype": "Link",
+   "label": "Airline",
+   "options": "Airplane",
+   "width": 0
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Revenue",
+   "width": 0
+  }
+ ],
+ "creation": "2024-10-14 16:14:39.288988",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-10-14 16:21:31.862813",
+ "modified_by": "Administrator",
+ "module": "Airplane Management App",
+ "name": "Revenue By Airline",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Airplane Ticket",
+ "report_name": "Revenue By Airline",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}
