@@ -242,3 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+scheduler_events = {
+    "monthly": [
+        "airplane_mode.airport_shop_management_module.rent_reminder.send_rent_reminders"
+    ]
+}

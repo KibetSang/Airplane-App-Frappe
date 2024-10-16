@@ -25,6 +25,7 @@
   "section_break_cneb",
   "departure_date",
   "amended_from",
+  "gate_number",
   "column_break_weha",
   "departure_time",
   "duration_of_flight"
@@ -166,13 +167,18 @@
    "fieldname": "flight_details_section",
    "fieldtype": "Section Break",
    "label": "Flight Details"
+  },
+  {
+   "fieldname": "gate_number",
+   "fieldtype": "Data",
+   "label": "Gate Number"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-14 11:00:10.439328",
+ "modified": "2024-10-16 07:26:58.796034",
  "modified_by": "Administrator",
  "module": "Airplane Management App",
  "name": "Airplane Ticket",
