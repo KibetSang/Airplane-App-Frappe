@@ -247,3 +247,6 @@ scheduler_events = {
         "airplane_mode.airport_shop_management_module.rent_reminder.send_rent_reminders"
     ]
 }
+website_route_rules = [
+    {"from_route": "/available-shops", "to_route": "shop_management/portal_shops"}
+]

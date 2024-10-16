@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Shops</title>
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <!-- Your content using Bulma classes -->
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Available Shops for Lease</h1>
+            <div class="columns is-multiline">
+                {% for shop in available_shops %}
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <h2 class="subtitle">{{ shop.shop_name }}</h2>
+                            <p>
+                                <strong>Shop Number:</strong> {{ shop.shop_number }}<br>
+                                <strong>Area:</strong> {{ shop.area }} sq ft<br>
+                                <strong>Airport:</strong> {{ shop.airport }}
+                            </p>
+                            <a href="#" class="button is-link">View Details</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
